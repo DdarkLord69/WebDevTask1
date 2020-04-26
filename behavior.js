@@ -11,6 +11,7 @@ shuffle(numbers);
 
 function start() {
     timer();
+    clickable = 1;
     document.getElementById("Score").innerHTML="";
     document.getElementById("Start").style.visibility="hidden";
     document.getElementById("el1").innerHTML= numbers[0];
